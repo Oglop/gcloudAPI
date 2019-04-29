@@ -1,3 +1,13 @@
+/*
+  datastore.js handles communication with google datastore.
+
+  exports
+  -getCustomer 
+  -getCustomers
+
+  dependencies
+  @google-cloud/datastore
+*/
 'use strict';
 const Datastore = require('@google-cloud/datastore');
 const datastore = new Datastore();

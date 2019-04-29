@@ -1,3 +1,15 @@
+/* 
+    Simple web API to google cloud.
+    The api have two methods
+    api/getcustomers
+    lists all existing customers
+    api/getcustomer/#id
+    returns specific customer
+
+    dependencies
+    -express
+    -./datastore
+*/
 'use strict';
 const express = require('express');
 const datastore = require('./datastore');
